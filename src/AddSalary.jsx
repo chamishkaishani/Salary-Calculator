@@ -76,7 +76,7 @@ export default function AddSalary() {
     APIT = grossEarnings * 0.24 - 39000;
   } else if (grossEarnings > 183333) {
     APIT = grossEarnings * 0.18 - 25500;
-  } else if (grossEarnings > 141667) {
+  } else if (grossEarnings > 241667) {
     APIT = grossEarnings * 0.12 - 14500;
   } else if (grossEarnings > 100000) {
     APIT = grossEarnings * 0.06 - 6000;
